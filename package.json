@@ -1,0 +1,15 @@
+{
+  "name": "@ninja/lerna-repo",
+  "private": true,
+  "scripts": {
+    "clean": "lerna clean && rimraf -G node_modules package-lock.json yarn.lock",
+    "init": "lerna bootstrap",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^5.2.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

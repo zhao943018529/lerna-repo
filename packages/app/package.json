@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "zhao943018529 <chengchengzhao2017@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
